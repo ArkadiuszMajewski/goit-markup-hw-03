@@ -487,6 +487,9 @@ header {
 .companys-icons:hover {
   fill: #2196f3;
 }
+.companys-icons:active {
+  fill: #2196f3;
+}
 .icon-nasi-klienci {
   fill: #afb1b8;
   display: block;
@@ -506,6 +509,11 @@ header {
 }
 .social-links-nasi-klienci:hover,
 .icon-nasi-klienci:hover {
+  background-color: var(--brand-color);
+  fill: #ffffff;
+}
+.social-links-nasi-klienci:active,
+.icon-nasi-klienci:active {
   background-color: var(--brand-color);
   fill: #ffffff;
 }
